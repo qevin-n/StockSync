@@ -1,0 +1,39 @@
+STOCKSYNC — COPYRIGHT AND ATTRIBUTION NOTICE
+
+Copyright © 2026 NIYIGENA Kevin.
+Developed under the XEVENTION brand.
+
+PROJECT
+
+StockSync is a proprietary inventory and stock management
+application developed using PHP, MySQL/MariaDB, and Bootstrap.
+
+AUTHORSHIP AND BRAND
+
+NIYIGENA Kevin is identified as the author of the project.
+
+XEVENTION is the brand name under which StockSync is developed
+and presented. XEVENTION is currently an unregistered brand name.
+
+THIRD-PARTY SOFTWARE
+
+StockSync uses third-party technologies and libraries, including:
+
+- PHP
+- MySQL / MariaDB
+- Bootstrap
+- Bootstrap Icons
+- Chart.js
+
+These technologies and components remain the property of their
+respective authors and copyright holders.
+
+Their applicable licenses and notices must be respected.
+
+RIGHTS
+
+StockSync's original source code and project materials are
+proprietary. All rights are reserved by the applicable rights
+holder, subject to applicable law and third-party licenses.
+
+END OF NOTICE

@@ -1,0 +1,29 @@
+# Local configuration and secrets
+/app/config/config.php
+/app/config/config.php.bak
+.env
+.env.*
+
+# Backup files
+*.bak
+*.bak*
+*.backup
+*.backup*
+
+# Runtime files
+/storage/*
+!/storage/.gitkeep
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Logs
+*.log
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Debug backups
+*.debug-backup

@@ -1,0 +1,44 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirect to remove trailing slashes
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+  # Serve existing files and directories directly
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Route everything to index.php
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Protect .env and sensitive files
+<Files .env>
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files config.php>
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files database.php>
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files functions.php>
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files composer.json>
+  Order allow,deny
+  Deny from all
+</Files>
